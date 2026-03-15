@@ -1,0 +1,132 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  border-radius: 16px;
+  width: 276px;
+  height: 424px;
+  background-color: #ffffff;
+}
+
+.imgWrapper {
+  position: relative;
+  width: 100%;
+  border-radius: 14px;
+  width: 276px;
+  height: 268px;
+  overflow: hidden;
+  margin-bottom: 16px;
+  
+}
+
+.cardImg {
+  object-fit: cover;
+}
+
+.cardContent {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  border-radius: 16px;
+  justify-content: space-between;
+  background-color: #ffffff;
+}
+
+.cardHeader {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+  background-color: #ffffff;
+}
+
+.cardTitle {
+  margin-left: 16px;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 125%;
+  color: var(--main);
+ background-color: #ffffff;
+}
+
+.model {
+  color: var(--button);
+}
+.cardContent {
+background-color: #ffffff;
+
+}
+.cardPrice {
+  margin-right: 16px;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 125%;
+  color: var(--main);
+  background-color: #ffffff;
+}
+
+.tags {background-color: #F5F5F5;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+
+  gap:  6px;
+  row-gap: 4px;
+border-radius: 8px;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 133%;
+  color: #101828;
+margin-left: 16px;
+margin-right: 16px;
+  margin-bottom: auto;
+}
+
+.divider {
+  color: var(--gray);
+}
+
+.learnMoreBtn {
+  display: block;
+  width: 100%;
+  width: 276px;
+  height: 44px;
+  padding: 12px;
+  background-color: var(--button);
+  border-radius: 12px;
+  text-align: center;
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 125%;
+  text-decoration: none;
+  transition: background-color 0.3s;
+
+
+  color: var(--white);
+}
+
+.learnMoreBtn:hover {
+  background-color: var(--button-hover);
+}
+
+.heartBtn {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  z-index: 10;
+}
+
+.heartIcon {
+  fill: var(--badges);
+  transition: all 0.3s;
+}
+
+.heartIconActive {
+  fill: var(--button);
+}
