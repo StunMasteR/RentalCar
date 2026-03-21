@@ -29,7 +29,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${manrope} ${inter}`}>
+     <body className={`${manrope.className} ${inter.className}`}>
         <Header />
         {children}
         <Toaster position="top-right" />

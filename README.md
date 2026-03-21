@@ -1,8 +1,8 @@
 🚗 RentalCar
 
-RentalCar — это современное веб-приложение для компании по прокату автомобилей. Приложение позволяет пользователям просматривать каталог доступных авто, фильтровать их по различным критериям, добавлять в список избранного и оформлять заявки на аренду. Проект выполнен с использованием Next.js и TypeScript.
+RentalCar is a modern web application for a car rental company. The app allows users to browse a catalog of available cars, filter them by various criteria, add them to a favorites list, and submit rental requests. The project is built using Next.js and TypeScript.
 
-🛠 Технологический стек
+🛠 Tech Stack
 
 Core: Next.js 15, React, TypeScript
 State Management: Zustand
@@ -12,32 +12,31 @@ Forms & Validation: React Hook Form, Yup
 UI Components: React Datepicker, React Hot Toast
 Icons: SVG Sprites
 
-✨ Основные функции
+✨ Key Features
 
-Домашняя страница:
+Homepage:
 
-Баннер с переходом в каталог.
+Banner with link to the catalog.
 
-Каталог автомобилей:
+Car Catalog:
 
-Отображение карточек авто с фото, ценой и характеристиками.
+Displays car cards with photos, prices, and specifications.
 
-Пагинация: Кнопка "Load More" для подгрузки следующих страниц.
+Pagination: "Load More" button for loading subsequent pages.
 
-Фильтрация: Возможность фильтровать авто по бренду и цене.
+Filtering: Ability to filter cars by brand and price.
 
-Избранное: Возможность добавлять авто в список любимых (сердечко).
+Favorites: Ability to add a car to your favorites list (heart icon).
 
-Детальная страница авто:
+Car Details Page:
 
-Подробная информация об автомобиле (год, пробег, комплектация).
+Detailed information about the car (year, mileage, trim level).
 
-Форма бронирования: Валидированная форма для аренды авто с выбором даты через календарь.
+Booking Form: Validated car rental form with date selection via calendar.
 
-Всплывающее сообщение об успешной отправке формы.
+Successful form submission pop-up.
 
-
-Разработчик
-Этот проект выполнен в качестве тестового задания.
+Developer
+This project was created as a test assignment.
 
 Igor Shelekhov   @LORDofKrum.
